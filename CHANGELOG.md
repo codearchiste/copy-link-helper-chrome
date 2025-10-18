@@ -10,4 +10,3 @@
   5. Copy Text + URL (HTML)
 - Keyboard shortcuts for all actions
 - Clipboard copy functionality
-- Works on Chrome, Edge, Brave, Zen, and Firefox
