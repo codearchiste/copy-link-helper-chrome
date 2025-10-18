@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Link Helper",
+  "version": "1.2",
+  "description": "Copy selected text or links in plain text, Markdown, or HTML list format with shortcuts and notifications.",
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite",
+    "activeTab",
+    "notifications",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Copy Link Helper"
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+"commands": {
+  "copy_selected_text": {
+    "suggested_key": {
+      "default": "Ctrl+Shift+1",
+      "mac": "Command+Shift+1"
+    },
+    "description": "Copy selected text (plain)"
+  },
+  "copy_links_md": {
+    "suggested_key": {
+      "default": "Ctrl+Shift+2",
+      "mac": "Command+Shift+2"
+    },
+    "description": "Copy selected links as Markdown list"
+  },
+  "copy_links_html": {
+    "suggested_key": {
+      "default": "Ctrl+Shift+3",
+      "mac": "Command+Shift+3"
+    },
+    "description": "Copy selected links as HTML list"
+  },
+  "copy_links_plain": {
+    "suggested_key": {
+      "default": "Ctrl+Shift+0",
+      "mac": "Command+Shift+0"
+    },
+    "description": "Copy selected links as Plain Text"
+  }
+},
+  "host_permissions": ["<all_urls>"]
+}
