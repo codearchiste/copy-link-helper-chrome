@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Copy Link Helper",
+  "author": "code-archiste",
   "version": "1.2",
   "description": "Copy selected text or links in plain text, Markdown, or HTML list format with shortcuts and notifications.",
   "permissions": [
